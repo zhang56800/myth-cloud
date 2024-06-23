@@ -13,6 +13,7 @@
         <module>request-demo</module>
         <module>request-demo1</module>
         <module>nacos-provider-demo</module>
+        <module>nacos-consumer-demo</module>
     </modules>
 
 
