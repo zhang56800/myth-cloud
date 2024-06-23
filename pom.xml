@@ -12,6 +12,7 @@
         <module>service-demo</module>
         <module>request-demo</module>
         <module>request-demo1</module>
+        <module>nacos-provider-demo</module>
     </modules>
 
 
