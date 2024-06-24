@@ -14,6 +14,7 @@
         <module>request-demo1</module>
         <module>shopcart-service-demo</module>
         <module>order-service-demo</module>
+        <module>service-common</module>
     </modules>
 
 
