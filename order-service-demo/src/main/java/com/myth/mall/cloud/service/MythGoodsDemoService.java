@@ -24,5 +24,8 @@ public interface MythGoodsDemoService {
     List<String> getGoodsList(@RequestParam(value = "goodsIds") List<Integer> goodsIds);
 
     @PostMapping(value = "/updMythGoodsInfo")
-    MythGoodsInfo updNewBeeGoodsInfo(@RequestBody MythGoodsInfo mythGoodsInfo);
+    MythGoodsInfo updMythGoodsInfo(@RequestBody MythGoodsInfo mythGoodsInfo);
+
+    @PutMapping(value = "/{goodsId}")
+    Boolean deStock(@PathVariable(value = "goodsId") int goodsId);
 }

@@ -63,7 +63,7 @@ public class MythCloudTestSimpleParamAPI {
         mythGoodsInfo.setGoodsName("Spring Cloud Alibaba 微服务架构");
         mythGoodsInfo.setStock(2035);
 
-        MythGoodsInfo result = simpleParamService.updNewBeeGoodsInfo(mythGoodsInfo);
+        MythGoodsInfo result = simpleParamService.updMythGoodsInfo(mythGoodsInfo);
 
         return result.toString();
     }
